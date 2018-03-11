@@ -1,0 +1,36 @@
+version: '3'
+services:
+
+  a1:
+    image: alpine 
+    command: /bin/ash 
+    stdin_open: true
+    tty: true
+    container_name: a1 
+    networks:
+       lab3-net:
+         ipv4_address: 172.30.0.2
+
+  redis:
+    image: redis
+    container_name: redis 
+    networks:
+       lab3-net: 
+         ipv4_address: 172.30.0.3
+
+  web1:
+    image: web 
+    container_name: web 
+    ports:
+      - 80:80
+    networks:
+       lab3-net:
+         ipv4_address: 172.30.0.4
+
+networks:
+  lab3-net:
+    driver: bridge 
+    ipam:
+       config: 
+          - subnet: 172.30.0.0/16
+                        
