@@ -57,4 +57,11 @@
  --- google.com ping statistics ---
  2 packets transmitted, 2 packets received, 0% packet loss
  round-trip min/avg/max = 6.312/6.455/6.598 ms
- / # [6n
+ / # [6n / # [6n / # [6n / # [6n/ # [J/ # [Jping 8.8.8.8
+ PING 8.8.8.8 (8.8.8.8): 56 data bytes
+ 64 bytes from 8.8.8.8: seq=0 ttl=56 time=6.447 ms
+ 64 bytes from 8.8.8.8: seq=1 ttl=56 time=6.435 ms
+ ^C
+ --- 8.8.8.8 ping statistics ---
+ 2 packets transmitted, 2 packets received, 0% packet loss
+ round-trip min/avg/max = 6.435/6.441/6.447 ms

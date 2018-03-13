@@ -1,5 +1,5 @@
 CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS                         PORTS                NAMES
-d4b721fbf3cc        web                 "python app.py"          2 minutes ago       Up 2 minutes                   0.0.0.0:80->80/tcp   web1
-f74232407b3f        redis               "docker-entrypoint.s…"   10 minutes ago      Up 2 minutes                   6379/tcp             redis
-34c0cb7a53d9        alpine              "/bin/ash"               21 minutes ago      Up 2 minutes                                        a1
+d4b721fbf3cc        web                 "python app.py"          13 minutes ago      Up 47 seconds                  0.0.0.0:80->80/tcp   web1
+f74232407b3f        redis               "docker-entrypoint.s…"   20 minutes ago      Up 47 seconds                  6379/tcp             redis
+34c0cb7a53d9        alpine              "/bin/ash"               31 minutes ago      Up 47 seconds                                       a1
 067342d3f4fb        hello-world         "/hello"                 About an hour ago   Exited (0) About an hour ago                        friendly_lamarr

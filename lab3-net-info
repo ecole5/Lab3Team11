@@ -25,21 +25,21 @@
         "Containers": {
             "34c0cb7a53d9690f5f2701a3381cf21025041139385931b123f6f74770426e6f": {
                 "Name": "a1",
-                "EndpointID": "e3563d77cb5bddf3230919e7bbeade8e5c2a0798e308e3a4ea474ea6115a7ebb",
+                "EndpointID": "eacf5667e31d100921e1bef8bfaf4ec3e360bf935b157de734e10a238bd56f70",
                 "MacAddress": "02:42:ac:1e:00:02",
                 "IPv4Address": "172.30.0.2/16",
                 "IPv6Address": ""
             },
             "d4b721fbf3cca7c63b867c92d68696359cd484e0c925b546bd3c993eb91937bd": {
                 "Name": "web1",
-                "EndpointID": "7186d27a2ee1e250b680a1d0152ee3ac99d8ed6b33aa926da57a4b1a2eb27418",
+                "EndpointID": "48b9350e72f3a6c416135944625182f74ec061da73ff373ca77fa189586e45d9",
                 "MacAddress": "02:42:ac:1e:00:04",
                 "IPv4Address": "172.30.0.4/16",
                 "IPv6Address": ""
             },
             "f74232407b3fea81b276163fff81eda7b7b3d4bcad1ab6a482210ba49f03ea8c": {
                 "Name": "redis",
-                "EndpointID": "1f99622d53b960a299fb4abedbe72f1f41063787853e872a5b36cd7905f0b13e",
+                "EndpointID": "c8a913b3e482f119754630ee5b660c65cc971e2308a3f8c2b952603660ffee16",
                 "MacAddress": "02:42:ac:1e:00:03",
                 "IPv4Address": "172.30.0.3/16",
                 "IPv6Address": ""
