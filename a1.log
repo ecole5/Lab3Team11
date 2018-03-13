@@ -1,0 +1,60 @@
+ / # [6n/ # [J/ # [Jfree -m
+              total       used       free     shared    buffers     cached
+ Mem:          3955       1437       2517         23         71        981
+ -/+ buffers/cache:        384       3570
+ Swap:        12286          0      12286
+ / # [6ncat /proc/meminfo
+ MemTotal:        4050008 kB
+ MemFree:         2577720 kB
+ MemAvailable:    3486064 kB
+ Buffers:           73432 kB
+ Cached:          1004620 kB
+ SwapCached:            0 kB
+ Active:           516064 kB
+ Inactive:         750120 kB
+ Active(anon):     188668 kB
+ Inactive(anon):    23876 kB
+ Active(file):     327396 kB
+ Inactive(file):   726244 kB
+ Unevictable:           0 kB
+ Mlocked:               0 kB
+ SwapTotal:      12581884 kB
+ SwapFree:       12581884 kB
+ Dirty:                24 kB
+ Writeback:             0 kB
+ AnonPages:        188312 kB
+ Mapped:           144800 kB
+ Shmem:             24400 kB
+ Slab:             152864 kB
+ SReclaimable:     119752 kB
+ SUnreclaim:        33112 kB
+ KernelStack:        5888 kB
+ PageTables:        10252 kB
+ NFS_Unstable:          0 kB
+ Bounce:                0 kB
+ WritebackTmp:          0 kB
+ CommitLimit:    14606888 kB
+ Committed_AS:    1951876 kB
+ VmallocTotal:   34359738367 kB
+ VmallocUsed:           0 kB
+ VmallocChunk:          0 kB
+ HardwareCorrupted:     0 kB
+ AnonHugePages:         0 kB
+ ShmemHugePages:        0 kB
+ ShmemPmdMapped:        0 kB
+ HugePages_Total:       0
+ HugePages_Free:        0
+ HugePages_Rsvd:        0
+ HugePages_Surp:        0
+ Hugepagesize:       2048 kB
+ DirectMap4k:      100224 kB
+ DirectMap2M:     4093952 kB
+ / # [6n/ # [J/ # [J 40500082577720 / # [6n/ # [J/ # [Jping 1[Jgoogle.com
+ PING google.com (172.217.2.174): 56 data bytes
+ 64 bytes from 172.217.2.174: seq=0 ttl=53 time=6.598 ms
+ 64 bytes from 172.217.2.174: seq=1 ttl=53 time=6.312 ms
+ ^C
+ --- google.com ping statistics ---
+ 2 packets transmitted, 2 packets received, 0% packet loss
+ round-trip min/avg/max = 6.312/6.455/6.598 ms
+ / # [6n

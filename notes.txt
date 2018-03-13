@@ -1,0 +1,6 @@
+You need to kill the apache2 service running on the host.
+sudo service apache2 stop -- i have permently disabled at startup
+You need to detach from a1 using escape seqence ctrl p and ctrl q as it is in tty mode 
+We build with .
+docker stats -a (this will show live containers total memory) 
+We use compose v2.2 because it supports cpu limits without swarm

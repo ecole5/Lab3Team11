@@ -1,0 +1,54 @@
+[
+    {
+        "Name": "lab3_lab3-net",
+        "Id": "6ce692d4703c8d70fb5586973a3ea21e904808e741dd2dfa4dcd3aae31b27229",
+        "Created": "2018-03-12T23:30:21.093662769-04:00",
+        "Scope": "local",
+        "Driver": "bridge",
+        "EnableIPv6": false,
+        "IPAM": {
+            "Driver": "default",
+            "Options": null,
+            "Config": [
+                {
+                    "Subnet": "172.30.0.0/16"
+                }
+            ]
+        },
+        "Internal": false,
+        "Attachable": true,
+        "Ingress": false,
+        "ConfigFrom": {
+            "Network": ""
+        },
+        "ConfigOnly": false,
+        "Containers": {
+            "34c0cb7a53d9690f5f2701a3381cf21025041139385931b123f6f74770426e6f": {
+                "Name": "a1",
+                "EndpointID": "e3563d77cb5bddf3230919e7bbeade8e5c2a0798e308e3a4ea474ea6115a7ebb",
+                "MacAddress": "02:42:ac:1e:00:02",
+                "IPv4Address": "172.30.0.2/16",
+                "IPv6Address": ""
+            },
+            "d4b721fbf3cca7c63b867c92d68696359cd484e0c925b546bd3c993eb91937bd": {
+                "Name": "web1",
+                "EndpointID": "7186d27a2ee1e250b680a1d0152ee3ac99d8ed6b33aa926da57a4b1a2eb27418",
+                "MacAddress": "02:42:ac:1e:00:04",
+                "IPv4Address": "172.30.0.4/16",
+                "IPv6Address": ""
+            },
+            "f74232407b3fea81b276163fff81eda7b7b3d4bcad1ab6a482210ba49f03ea8c": {
+                "Name": "redis",
+                "EndpointID": "1f99622d53b960a299fb4abedbe72f1f41063787853e872a5b36cd7905f0b13e",
+                "MacAddress": "02:42:ac:1e:00:03",
+                "IPv4Address": "172.30.0.3/16",
+                "IPv6Address": ""
+            }
+        },
+        "Options": {},
+        "Labels": {
+            "com.docker.compose.network": "lab3-net",
+            "com.docker.compose.project": "lab3"
+        }
+    }
+]

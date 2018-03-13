@@ -1,4 +1,4 @@
-version: '3'
+version: '2.2'
 services:
 
   a1:
@@ -7,20 +7,26 @@ services:
     stdin_open: true
     tty: true
     container_name: a1 
+    cpu_count: 2
+    mem_limit: 2048M
     networks:
        lab3-net:
          ipv4_address: 172.30.0.2
 
   redis:
     image: redis
-    container_name: redis 
+    container_name: redis
+    cpu_count: 1
+    mem_limit: 2048M 
     networks:
        lab3-net: 
          ipv4_address: 172.30.0.3
 
   web1:
     image: web 
-    container_name: web 
+    container_name: web1
+    cpu_count: 1
+    mem_limit: 2048M
     ports:
       - 80:80
     networks:
@@ -33,4 +39,3 @@ networks:
     ipam:
        config: 
           - subnet: 172.30.0.0/16
-                        
